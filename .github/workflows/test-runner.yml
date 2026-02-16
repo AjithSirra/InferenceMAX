@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: h100-local_0
+    runs-on: h100-local-0
     steps:
       - name: Test runner
         run: |
